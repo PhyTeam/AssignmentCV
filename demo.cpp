@@ -1,6 +1,6 @@
 #include "demo.h"
 
-Demo::Demo()
+Demo::Demo(std::string name) : demoName(name)
 {
 
 }
